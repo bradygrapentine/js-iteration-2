@@ -1,9 +1,6 @@
-// just missing reduce
-
 function main() {
   const colors = ['red', 'blue', 'green']
-  const numbers = [1, 2, 3]
-
+  const numbers = [1, 2, 3, 4, 5]
   // ------------------------------------------------------- //
   // ------------------------------------------------------- //
   // ------------------------------------------------------- //
@@ -74,7 +71,7 @@ function main() {
   console.log(_filterTest3)
 
   const _filterTest4 = _filter(numbers, function (number) {
-    return number > 4
+    return number > 6
   })
   console.log('Filter Test 4 (empty):')
   console.log(_filterTest4)
@@ -160,7 +157,7 @@ function main() {
   console.log(_someTest3)
 
   const _someTest4 = _some(numbers, function (number) {
-    return number === 5
+    return number === 6
   })
   console.log('Some Test 4 (false):')
   console.log(_someTest4)
@@ -168,5 +165,4 @@ function main() {
   // ------------------------------------------------------- //
   // ------------------------------------------------------- //
 }
-
 document.addEventListener('DOMContentLoaded', main)

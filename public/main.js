@@ -1,3 +1,5 @@
+// just missing reduce
+
 function main() {
   const colors = ['red', 'blue', 'green']
   const numbers = [1, 2, 3]
@@ -168,32 +170,3 @@ function main() {
 }
 
 document.addEventListener('DOMContentLoaded', main)
-
-// function _reduce(arr, initial, fn) {
-//   let total = initial
-//   arr.forEach(function (item) {
-//     total = fn(total, item)
-//   })
-//   return total
-// }
-
-// // ------------------------------------------------------- //
-// // ------------------------------------------------------- //
-// let total = 0
-// const _reduceTest1 = _reduce(numbers, total, function (number) {
-//   return (total += number)
-// })
-// console.log('Reduce Test 1:')
-// console.log(_reduceTest1)
-
-// // ------------------------------------------------------- //
-
-// const _reduceTest2 = _reduce(numbers, function (number) {
-//   return number * number
-// })
-// console.log('Reduce Test 2:')
-// console.log(_reduceTest2)
-
-// ------------------------------------------------------- //
-// ------------------------------------------------------- //
-// ------------------------------------------------------- //
